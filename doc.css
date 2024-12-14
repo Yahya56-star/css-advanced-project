@@ -1,0 +1,349 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+
+.listnav {
+  list-style: none;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 2em;
+  padding: 1.33em 0;
+}
+.listnav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.listnav li a {
+  text-decoration: none;
+}
+.section__inner {
+  max-width: 1015px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+.lead img {
+  padding: 20px;
+  padding-left: 100px;
+  padding-top: 5px;
+  margin: 0px 600px;
+}
+.lead h1 {
+  text-align: center;
+  font-size: 2.125rem;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  color: #00b39b;
+}
+.lead p {
+  margin: 0.8em 0;
+  line-height: 1.75;
+  font-weight: 400;
+}
+p {
+  margin: 1.6em 0;
+}
+
+.part1 {
+  display: flex;
+  align-content: center;
+}
+.part2 {
+  padding-right: 10px;
+  margin: 20px;
+}
+
+.services {
+  display: flex;
+
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.services-elements {
+  display: flex;
+
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+.patients,
+.patients-select {
+  background-color: #00bfa5;
+  overflow-wrap: break-word;
+}
+
+.part3 {
+  flex: 1;
+  max-width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #00bfa5;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.part4 {
+  flex: 1;
+  max-width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #008cba;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.part5 {
+  flex: 1;
+  max-width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #333;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.part3 h1,
+.part4 h1,
+.part5 h1 {
+  margin-bottom: 10px;
+}
+.part3 h2,
+.part4 h2,
+.part5 h2 {
+  font-size: 14px;
+}
+
+.select select {
+  width: 172px;
+  height: 40px;
+  color: white;
+  background-color: #00bfa5;
+  text-decoration: underline;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 38px 0px 0px;
+  border: none;
+}
+.select-doctors select {
+  width: 172px;
+  height: 40px;
+  color: white;
+  background-color: #008cba;
+  text-decoration: underline;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 38px 0px 0px;
+  border-style: none;
+  border-color: #00bfa5;
+  box-shadow: none;
+}
+.select-clinics select {
+  width: 172px;
+  height: 40px;
+  color: white;
+  background-color: #333;
+  text-decoration: underline;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 38px 0px 0px;
+  border-style: hidden;
+}
+
+.brands_section__inner {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f4f4f4;
+}
+.brands_section__inner h1 {
+  font-size: 2.5rem;
+  color: #00b39b;
+  margin-bottom: 20px;
+
+  text-align: left;
+}
+
+.brands__logos,
+.brands__logos1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 640.4px;
+  height: 162.4px;
+  text-decoration: none;
+  text-align: left;
+  gap: 10px;
+  background-color: #f4f4f4ff;
+  padding-left: 600px;
+  padding-bottom: 90px;
+}
+
+.brands__logos li {
+  width: 160px;
+  height: 44px;
+  padding: 5px 0px 5px 5px;
+  marker: none;
+  color: rgb(134, 134, 127);
+  justify-content: right;
+  list-style-type: none;
+}
+.brands__logos li a {
+  text-decoration: none;
+  align-items: end;
+  color: #333;
+}
+.brands__logos1 a img,
+.brands__logos svg {
+  width: 125px;
+  height: 30px;
+  text-decoration: none;
+  justify-content: right;
+  color: #333;
+  align-items: center;
+}
+.achievements {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f4f4f4;
+}
+.stats__header h1 {
+  font-size: 2.5rem;
+  color: #00b39b;
+  margin-bottom: 20px;
+}
+.stats__header p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  gap: 10px;
+  position: relative;
+}
+.stats_info {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 500px;
+  text-align: center;
+}
+.stats_info img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.stats_info h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.stats_info p {
+  font-size: 1rem;
+  color: #666;
+}
+.office_per_country {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f4f4f4;
+}
+.offices__title h1 {
+  font-size: 2.5rem;
+  color: #00b39b;
+  margin-bottom: 20px;
+}
+.offices__title p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 40px;
+  align-items: center;
+  width: 30%;
+  padding-left: 550px;
+}
+.offices__placements {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 50px 0;
+  background-color: #f4f4f4;
+}
+.office {
+  display: grid;
+ grid-template-columns: repeat(3,1fr);
+}
+
+.main-footer {
+  align-items: center;
+}
+.footer_tag p {
+  display: inline-block;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  padding-left: 20%;
+  font-size: small;
+}
+.copyright {
+  display: inline-block;
+  align-items: center;
+  margin: 10px;
+  padding-left: 40%;
+}
+.footer_tag a {
+  text-decoration: none;
+}
+.office {
+  padding-left: 5px;
+  padding-right: 3px;
+  border: 5%;
+}
+
+.office a {
+  text-decoration: none;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(128, 125, 129);
+  padding-left: 5px;
+}
+
+.btn--small {
+  cursor: pointer;
+  background-color: rgb(16, 142, 221);
+  border-radius: 10%;
+  padding: 10px 15px;
+  border-style: none;
+  color: aliceblue;
+  font: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+img {
+  border-radius: 5%;
+}
+.apply {
+  text-align: center;
+}
+.apply h1 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.openings {
+  font-size: large;
+  background-color: #72e0d2;
+  border-style: none;
+  border-radius: 8%;
+  padding: 15px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
