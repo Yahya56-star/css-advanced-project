@@ -112,12 +112,15 @@ p {
 .part3 h1,
 .part4 h1,
 .part5 h1 {
-  margin-bottom: 10px;
+  
+  color:white;
 }
 .part3 h2,
 .part4 h2,
 .part5 h2 {
-  font-size: 14px;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 150px;
 }
 
 .select select {
@@ -156,23 +159,23 @@ p {
   border-style: hidden;
 }
 
-.brands_section__inner {
-  text-align: center;
+.brands_section__inner {display: flex;
+  text-align: ce;
   padding: 50px 0;
   background-color: #f4f4f4;
 }
-.brands_section__inner h1 {
+.brands_section__inner h1 {display: flex;
   font-size: 2.5rem;
   color: #00b39b;
-  margin-bottom: 20px;
+
 
   text-align: left;
 }
 
-.brands__logos,
-.brands__logos1 {
+.brands__logos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 50px;
   width: 640.4px;
   height: 162.4px;
   text-decoration: none;
@@ -269,8 +272,8 @@ p {
   padding-left: 550px;
 }
 .offices__placements {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
   padding: 50px 0;
   background-color: #f4f4f4;
 }
